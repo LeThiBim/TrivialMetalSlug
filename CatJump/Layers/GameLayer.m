@@ -6,6 +6,8 @@
 //  Copyright 2012 Ray Wenderlich. All rights reserved.
 //
 
+//ha ha ha, Le Thi Bim
+
 #import "GameLayer.h"
 #import "CCBReader.h"
 #import "SimpleAudioEngine.h"
