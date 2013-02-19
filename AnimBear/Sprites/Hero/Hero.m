@@ -26,7 +26,7 @@
         for(int i = 1; i <= 16; ++i) {
             [standAnimFrames addObject:
              [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:
-              [NSString stringWithFormat:@"Stand_%02d.png", i]]];
+              [NSString stringWithFormat:@"Stand_%02d.gif", i]]];
         }
         
         //------------------------------------------------------------------------
@@ -36,7 +36,7 @@
         
         //------------------------------------------------------------------------
         CGSize winSize = [CCDirector sharedDirector].winSize;
-        _hero = [CCSprite spriteWithSpriteFrameName:@"Stand_01.png"];
+        _hero = [CCSprite spriteWithSpriteFrameName:@"Stand_01.gif"];
         _hero.position = ccp(winSize.width/2, winSize.height/2);
         _standAction = [[CCRepeatForever actionWithAction:
                           [CCAnimate actionWithAnimation:standAnim]] retain];
@@ -49,7 +49,7 @@
         for (int i = 1; i <=16; ++i)
         {
             [walkAnimFrames addObject:[[CCSpriteFrameCache sharedSpriteFrameCache]
-                                       spriteFrameByName:[NSString stringWithFormat:@"Walk_%02d.png", i]]];
+                                       spriteFrameByName:[NSString stringWithFormat:@"Walk_%02d.gif", i]]];
         }
         
         CCAnimation *walkAnim = [CCAnimation animationWithSpriteFrames:walkAnimFrames delay:0.1f];

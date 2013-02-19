@@ -5,7 +5,7 @@
 	<key>frames</key>
 	<dict>
 		
-		<key>Jump_01.png</key>
+		<key>Jump_01.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -27,7 +27,7 @@
 			<false/>
 		</dict>
 		
-		<key>Jump_02.png</key>
+		<key>Jump_02.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -49,7 +49,7 @@
 			<false/>
 		</dict>
 		
-		<key>Jump_03.png</key>
+		<key>Jump_03.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -71,7 +71,7 @@
 			<false/>
 		</dict>
 		
-		<key>Jump_04.png</key>
+		<key>Jump_04.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -93,7 +93,7 @@
 			<false/>
 		</dict>
 		
-		<key>Jump_05.png</key>
+		<key>Jump_05.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -115,7 +115,7 @@
 			<false/>
 		</dict>
 		
-		<key>Jump_06.png</key>
+		<key>Jump_06.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -137,51 +137,7 @@
 			<false/>
 		</dict>
 		
-		<key>Jump_07.png</key>
-		<dict>
-			<key>aliases</key>
-			<array>
-			
-			</array>
-			<key>spriteColorRect</key>
-			<string>{{0, 0}, {63, 74}}</string>
-			<key>spriteOffset</key>
-			<string>{0, -0}</string>
-			<key>spriteSize</key>
-			<string>{63, 74}</string>
-			<key>spriteSourceSize</key>
-			<string>{63, 74}</string>
-			<key>spriteTrimmed</key>
-			<true/>
-			<key>textureRect</key>
-			<string>{{474, 76}, {63, 74}}</string>
-			<key>textureRotated</key>
-			<false/>
-		</dict>
-		
-		<key>Jump_08.png</key>
-		<dict>
-			<key>aliases</key>
-			<array>
-			
-			</array>
-			<key>spriteColorRect</key>
-			<string>{{0, 0}, {62, 74}}</string>
-			<key>spriteOffset</key>
-			<string>{0, -0}</string>
-			<key>spriteSize</key>
-			<string>{62, 74}</string>
-			<key>spriteSourceSize</key>
-			<string>{62, 74}</string>
-			<key>spriteTrimmed</key>
-			<true/>
-			<key>textureRect</key>
-			<string>{{459, 228}, {62, 74}}</string>
-			<key>textureRotated</key>
-			<false/>
-		</dict>
-		
-		<key>Jump_09.png</key>
+		<key>Jump_07.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -203,95 +159,51 @@
 			<false/>
 		</dict>
 		
-		<key>ShootUp_01.png</key>
+		<key>Jump_08.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
 			
 			</array>
 			<key>spriteColorRect</key>
-			<string>{{0, 0}, {76, 134}}</string>
+			<string>{{0, 0}, {62, 74}}</string>
 			<key>spriteOffset</key>
 			<string>{0, -0}</string>
 			<key>spriteSize</key>
-			<string>{76, 134}</string>
+			<string>{62, 74}</string>
 			<key>spriteSourceSize</key>
-			<string>{76, 134}</string>
+			<string>{62, 74}</string>
 			<key>spriteTrimmed</key>
 			<true/>
 			<key>textureRect</key>
-			<string>{{229, 0}, {76, 134}}</string>
+			<string>{{459, 228}, {62, 74}}</string>
 			<key>textureRotated</key>
 			<false/>
 		</dict>
 		
-		<key>ShootUp_02.png</key>
+		<key>Jump_09.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
 			
 			</array>
 			<key>spriteColorRect</key>
-			<string>{{0, 0}, {82, 134}}</string>
+			<string>{{0, 0}, {63, 74}}</string>
 			<key>spriteOffset</key>
 			<string>{0, -0}</string>
 			<key>spriteSize</key>
-			<string>{82, 134}</string>
+			<string>{63, 74}</string>
 			<key>spriteSourceSize</key>
-			<string>{82, 134}</string>
+			<string>{63, 74}</string>
 			<key>spriteTrimmed</key>
 			<true/>
 			<key>textureRect</key>
-			<string>{{0, 202}, {82, 134}}</string>
+			<string>{{474, 76}, {63, 74}}</string>
 			<key>textureRotated</key>
 			<false/>
 		</dict>
 		
-		<key>ShootUp_03.png</key>
-		<dict>
-			<key>aliases</key>
-			<array>
-			
-			</array>
-			<key>spriteColorRect</key>
-			<string>{{0, 0}, {74, 134}}</string>
-			<key>spriteOffset</key>
-			<string>{0, -0}</string>
-			<key>spriteSize</key>
-			<string>{74, 134}</string>
-			<key>spriteSourceSize</key>
-			<string>{74, 134}</string>
-			<key>spriteTrimmed</key>
-			<true/>
-			<key>textureRect</key>
-			<string>{{385, 0}, {74, 134}}</string>
-			<key>textureRotated</key>
-			<false/>
-		</dict>
-		
-		<key>ShootUp_04.png</key>
-		<dict>
-			<key>aliases</key>
-			<array>
-			
-			</array>
-			<key>spriteColorRect</key>
-			<string>{{0, 0}, {82, 134}}</string>
-			<key>spriteOffset</key>
-			<string>{0, -0}</string>
-			<key>spriteSize</key>
-			<string>{82, 134}</string>
-			<key>spriteSourceSize</key>
-			<string>{82, 134}</string>
-			<key>spriteTrimmed</key>
-			<true/>
-			<key>textureRect</key>
-			<string>{{145, 0}, {82, 134}}</string>
-			<key>textureRotated</key>
-			<false/>
-		</dict>
-		
-		<key>ShootUp_05.png</key>
+		<key>ShootUp_01.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -313,7 +225,95 @@
 			<false/>
 		</dict>
 		
-		<key>Shoot_01.png</key>
+		<key>ShootUp_02.gif</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {82, 134}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -0}</string>
+			<key>spriteSize</key>
+			<string>{82, 134}</string>
+			<key>spriteSourceSize</key>
+			<string>{82, 134}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 202}, {82, 134}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>ShootUp_03.gif</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {74, 134}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -0}</string>
+			<key>spriteSize</key>
+			<string>{74, 134}</string>
+			<key>spriteSourceSize</key>
+			<string>{74, 134}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{385, 0}, {74, 134}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>ShootUp_04.gif</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {82, 134}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -0}</string>
+			<key>spriteSize</key>
+			<string>{82, 134}</string>
+			<key>spriteSourceSize</key>
+			<string>{82, 134}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{145, 0}, {82, 134}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>ShootUp_05.gif</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {76, 134}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -0}</string>
+			<key>spriteSize</key>
+			<string>{76, 134}</string>
+			<key>spriteSourceSize</key>
+			<string>{76, 134}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{229, 0}, {76, 134}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Shoot_01.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -335,7 +335,7 @@
 			<false/>
 		</dict>
 		
-		<key>Shoot_02.png</key>
+		<key>Shoot_02.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -357,7 +357,7 @@
 			<false/>
 		</dict>
 		
-		<key>Shoot_03.png</key>
+		<key>Shoot_03.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -379,7 +379,7 @@
 			<false/>
 		</dict>
 		
-		<key>Shoot_04.png</key>
+		<key>Shoot_04.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -401,7 +401,7 @@
 			<false/>
 		</dict>
 		
-		<key>Shoot_05.png</key>
+		<key>Shoot_05.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -423,7 +423,7 @@
 			<false/>
 		</dict>
 		
-		<key>Stand_01.png</key>
+		<key>Stand_01.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -445,7 +445,7 @@
 			<false/>
 		</dict>
 		
-		<key>Stand_02.png</key>
+		<key>Stand_02.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -467,7 +467,7 @@
 			<false/>
 		</dict>
 		
-		<key>Stand_03.png</key>
+		<key>Stand_03.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -489,7 +489,7 @@
 			<false/>
 		</dict>
 		
-		<key>Stand_04.png</key>
+		<key>Stand_04.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -511,7 +511,7 @@
 			<false/>
 		</dict>
 		
-		<key>Stand_05.png</key>
+		<key>Stand_05.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -533,51 +533,7 @@
 			<false/>
 		</dict>
 		
-		<key>Stand_06.png</key>
-		<dict>
-			<key>aliases</key>
-			<array>
-			
-			</array>
-			<key>spriteColorRect</key>
-			<string>{{0, 0}, {68, 71}}</string>
-			<key>spriteOffset</key>
-			<string>{0, -0}</string>
-			<key>spriteSize</key>
-			<string>{68, 71}</string>
-			<key>spriteSourceSize</key>
-			<string>{68, 71}</string>
-			<key>spriteTrimmed</key>
-			<true/>
-			<key>textureRect</key>
-			<string>{{443, 304}, {68, 71}}</string>
-			<key>textureRotated</key>
-			<false/>
-		</dict>
-		
-		<key>Stand_07.png</key>
-		<dict>
-			<key>aliases</key>
-			<array>
-			
-			</array>
-			<key>spriteColorRect</key>
-			<string>{{0, 0}, {67, 71}}</string>
-			<key>spriteOffset</key>
-			<string>{0, -0}</string>
-			<key>spriteSize</key>
-			<string>{67, 71}</string>
-			<key>spriteSourceSize</key>
-			<string>{67, 71}</string>
-			<key>spriteTrimmed</key>
-			<true/>
-			<key>textureRect</key>
-			<string>{{437, 492}, {67, 71}}</string>
-			<key>textureRotated</key>
-			<false/>
-		</dict>
-		
-		<key>Stand_08.png</key>
+		<key>Stand_06.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -599,7 +555,51 @@
 			<false/>
 		</dict>
 		
-		<key>Stand_09.png</key>
+		<key>Stand_07.gif</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {67, 71}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -0}</string>
+			<key>spriteSize</key>
+			<string>{67, 71}</string>
+			<key>spriteSourceSize</key>
+			<string>{67, 71}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{437, 492}, {67, 71}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Stand_08.gif</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {68, 71}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -0}</string>
+			<key>spriteSize</key>
+			<string>{68, 71}</string>
+			<key>spriteSourceSize</key>
+			<string>{68, 71}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{443, 304}, {68, 71}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Stand_09.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -621,7 +621,7 @@
 			<false/>
 		</dict>
 		
-		<key>Stand_10.png</key>
+		<key>Stand_10.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -643,7 +643,7 @@
 			<false/>
 		</dict>
 		
-		<key>Stand_11.png</key>
+		<key>Stand_11.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -665,7 +665,7 @@
 			<false/>
 		</dict>
 		
-		<key>Stand_12.png</key>
+		<key>Stand_12.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -687,7 +687,7 @@
 			<false/>
 		</dict>
 		
-		<key>Stand_13.png</key>
+		<key>Stand_13.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -709,29 +709,7 @@
 			<false/>
 		</dict>
 		
-		<key>Stand_14.png</key>
-		<dict>
-			<key>aliases</key>
-			<array>
-			
-			</array>
-			<key>spriteColorRect</key>
-			<string>{{0, 0}, {69, 66}}</string>
-			<key>spriteOffset</key>
-			<string>{0, -0}</string>
-			<key>spriteSize</key>
-			<string>{69, 66}</string>
-			<key>spriteSourceSize</key>
-			<string>{69, 66}</string>
-			<key>spriteTrimmed</key>
-			<true/>
-			<key>textureRect</key>
-			<string>{{287, 482}, {69, 66}}</string>
-			<key>textureRotated</key>
-			<false/>
-		</dict>
-		
-		<key>Stand_15.png</key>
+		<key>Stand_14.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -753,7 +731,29 @@
 			<false/>
 		</dict>
 		
-		<key>Stand_16.png</key>
+		<key>Stand_15.gif</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {69, 66}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -0}</string>
+			<key>spriteSize</key>
+			<string>{69, 66}</string>
+			<key>spriteSourceSize</key>
+			<string>{69, 66}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{287, 482}, {69, 66}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Stand_16.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -775,7 +775,7 @@
 			<false/>
 		</dict>
 		
-		<key>Walk_01.png</key>
+		<key>Walk_01.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -797,7 +797,7 @@
 			<false/>
 		</dict>
 		
-		<key>Walk_02.png</key>
+		<key>Walk_02.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -819,7 +819,7 @@
 			<false/>
 		</dict>
 		
-		<key>Walk_03.png</key>
+		<key>Walk_03.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -841,7 +841,7 @@
 			<false/>
 		</dict>
 		
-		<key>Walk_04.png</key>
+		<key>Walk_04.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -863,7 +863,7 @@
 			<false/>
 		</dict>
 		
-		<key>Walk_05.png</key>
+		<key>Walk_05.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -885,7 +885,7 @@
 			<false/>
 		</dict>
 		
-		<key>Walk_06.png</key>
+		<key>Walk_06.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -907,7 +907,7 @@
 			<false/>
 		</dict>
 		
-		<key>Walk_07.png</key>
+		<key>Walk_07.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -929,7 +929,7 @@
 			<false/>
 		</dict>
 		
-		<key>Walk_08.png</key>
+		<key>Walk_08.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -951,7 +951,7 @@
 			<false/>
 		</dict>
 		
-		<key>Walk_09.png</key>
+		<key>Walk_09.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -973,7 +973,7 @@
 			<false/>
 		</dict>
 		
-		<key>Walk_10.png</key>
+		<key>Walk_10.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -995,7 +995,7 @@
 			<false/>
 		</dict>
 		
-		<key>Walk_11.png</key>
+		<key>Walk_11.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -1017,7 +1017,7 @@
 			<false/>
 		</dict>
 		
-		<key>Walk_12.png</key>
+		<key>Walk_12.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -1039,7 +1039,7 @@
 			<false/>
 		</dict>
 		
-		<key>Walk_13.png</key>
+		<key>Walk_13.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -1061,7 +1061,7 @@
 			<false/>
 		</dict>
 		
-		<key>Walk_14.png</key>
+		<key>Walk_14.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -1083,7 +1083,7 @@
 			<false/>
 		</dict>
 		
-		<key>Walk_15.png</key>
+		<key>Walk_15.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -1105,7 +1105,7 @@
 			<false/>
 		</dict>
 		
-		<key>Walk_16.png</key>
+		<key>Walk_16.gif</key>
 		<dict>
 			<key>aliases</key>
 			<array>
@@ -1135,7 +1135,7 @@
 		<key>format</key>
 		<integer>3</integer>
 		<key>size</key>
-		<string>{4096, 4096}</string>
+		<string>{2048, 2048}</string>
 		<key>name</key>
 		<string>Untitled</string>
 		<key>textureFileName</key>
