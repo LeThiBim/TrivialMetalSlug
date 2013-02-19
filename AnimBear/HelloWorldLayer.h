@@ -11,22 +11,17 @@
 
 // When you import this file, you import all the cocos2d classes
 #import "cocos2d.h"
+#import "Hero.h"
 
 // HelloWorldLayer
 @interface HelloWorldLayer : CCLayer <GKAchievementViewControllerDelegate, GKLeaderboardViewControllerDelegate>
 {
     // Add inside the HelloWorld interface
-    CCSprite *_bear;
-    CCAction *_walkAction;
-    CCAction *_moveAction;
-    BOOL _moving;
+    Hero* _heroPlayer;
 }
 
 // returns a CCScene that contains the HelloWorldLayer as the only child
 +(CCScene *) scene;
 
 // Add after the HelloWorld interface
-@property (nonatomic, retain) CCSprite *bear;
-@property (nonatomic, retain) CCAction *walkAction;
-@property (nonatomic, retain) CCAction *moveAction;
 @end

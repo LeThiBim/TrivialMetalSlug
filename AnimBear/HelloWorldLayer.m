@@ -1,6 +1,6 @@
 //
 //  HelloWorldLayer.m
-//  AnimBear
+//  AnimStand
 //
 //  Created by gnt on 1/31/13.
 //  Copyright __MyCompanyName__ 2013. All rights reserved.
@@ -18,10 +18,7 @@
 // HelloWorldLayer implementation
 @implementation HelloWorldLayer
 
-// At the top, under @implementation
-@synthesize bear = _bear;
-@synthesize moveAction = _moveAction;
-@synthesize walkAction = _walkAction;
+
 // Helper class method that creates a Scene with the HelloWorldLayer as the only child.
 +(CCScene *) scene
 {
@@ -47,38 +44,13 @@
 		
         self.isTouchEnabled = YES;
         
+        _heroPlayer = [[Hero alloc] init];
         
-        //------------------------------------------------------------------------
-        [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:
-         @"AnimBear.plist"];
+        [self addChild:_heroPlayer];
         
         
-        CCSpriteBatchNode *spriteSheet = [CCSpriteBatchNode
-                                          batchNodeWithFile:@"AnimBear.jpg"];
-        [self addChild:spriteSheet];
+        [self schedule:@selector(update:)];
         
-        //------------------------------------------------------------------------
-        NSMutableArray *walkAnimFrames = [NSMutableArray array];
-        for(int i = 1; i <= 8; ++i) {
-            [walkAnimFrames addObject:
-             [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:
-              [NSString stringWithFormat:@"bear%d.png", i]]];
-        }
-        
-        //------------------------------------------------------------------------
-        CCAnimation *walkAnim = [CCAnimation
-                                 animationWithSpriteFrames:walkAnimFrames delay:0.1f];
-        
-               
-         //------------------------------------------------------------------------
-        CGSize winSize = [CCDirector sharedDirector].winSize;
-        self.bear = [CCSprite spriteWithSpriteFrameName:@"bear1.png"];
-        _bear.position = ccp(winSize.width/2, winSize.height/2);
-        self.walkAction = [CCRepeatForever actionWithAction:
-                           [CCAnimate actionWithAnimation:walkAnim]];
-       // [_bear runAction:_walkAction];
-        [spriteSheet addChild:_bear];
-
 	}
 	return self;
 }
@@ -90,15 +62,18 @@
 	// in this particular example nothing needs to be released.
 	// cocos2d will automatically release all the children (Label)
 	
-    self.bear = nil;
-    self.walkAction = nil;
-    
+    _heroPlayer = nil;
+     
 	// don't forget to call "super dealloc"
 	[super dealloc];
     
     
 }
 
+- (void)update:(ccTime)dt
+{
+    [_heroPlayer update:dt];
+}
 
 -(void) registerWithTouchDispatcher
 {
@@ -111,52 +86,19 @@
 
 -(void) ccTouchEnded:(UITouch *)touch withEvent:(UIEvent *)event {
     // Stuff from below!
-    
     CGPoint touchLocation = [touch locationInView: [touch view]];
     touchLocation = [[CCDirector sharedDirector] convertToGL: touchLocation];
     touchLocation = [self convertToNodeSpace:touchLocation];
     
-    touchLocation.y = 100;
-    
-    float bearVelocity = 480.0/3.0;
-    
-    
-    CGPoint moveDifference = ccpSub(touchLocation, _bear.position);
-    
-    
-    float distanceToMove = ccpLength(moveDifference);
-    
-    
-    float moveDuration = distanceToMove / bearVelocity;
-    
-    
-    if (moveDifference.x < 0) {
-        _bear.flipX = NO;
-    } else {
-        _bear.flipX = YES;
-    }
-    
-    
-    [_bear stopAction:_moveAction];
-    
-    if (!_moving) {
-        [_bear runAction:_walkAction];
-    }
-    
-    self.moveAction = [CCSequence actions:
-                       [CCMoveTo actionWithDuration:moveDuration position:touchLocation],
-                       [CCCallFunc actionWithTarget:self selector:@selector(bearMoveEnded)],
-                       nil];
-    
-    [_bear runAction:_moveAction];   
-    _moving = TRUE;
+   
+    [_heroPlayer walk:touchLocation];
+     
 }
 
--(void)bearMoveEnded {
-    [_bear stopAction:_walkAction];
-    _moving = FALSE;
+-(void)heroMoveEnded {
+    [[_heroPlayer hero] stopAction:[_heroPlayer walkAction]];
+    _heroPlayer.moving = FALSE;
 }
-
 #pragma mark GameKit delegate
 
 -(void) achievementViewControllerDidFinish:(GKAchievementViewController *)viewController

@@ -12,3 +12,6 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 #endif
+
+
+#define SAFE_RELEASE_OBJECT(p)                    { if (p != nil) { [p release]; p = nil; } }

@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EB0E99EE16BF76910071164E /* Stand.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB0E99EC16BF76910071164E /* Stand.plist */; };
-		EB0E99F216BF8BFD0071164E /* Stand.png in Resources */ = {isa = PBXBuildFile; fileRef = EB0E99F116BF8BFD0071164E /* Stand.png */; };
 		EB21970816BA50A8002AA562 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB21970716BA50A8002AA562 /* QuartzCore.framework */; };
 		EB21970A16BA50A8002AA562 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB21970916BA50A8002AA562 /* OpenGLES.framework */; };
 		EB21970C16BA50A8002AA562 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB21970B16BA50A8002AA562 /* OpenAL.framework */; };
@@ -135,13 +133,14 @@
 		EB21989316BA50B3002AA562 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB21989216BA50B3002AA562 /* AppDelegate.m */; };
 		EB21989616BA50B3002AA562 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EB21989516BA50B3002AA562 /* HelloWorldLayer.m */; };
 		EB21989916BA50B3002AA562 /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EB21989816BA50B3002AA562 /* IntroLayer.m */; };
+		EB33118A16D23A9C00782ACC /* Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = EB33118616D23A9C00782ACC /* Hero.m */; };
+		EB33119016D23ADC00782ACC /* MachineGun.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB33118E16D23ADC00782ACC /* MachineGun.plist */; };
+		EB33119116D23ADC00782ACC /* MachineGun.png in Resources */ = {isa = PBXBuildFile; fileRef = EB33118F16D23ADC00782ACC /* MachineGun.png */; };
 		EB9F039316BA742800F5F737 /* AnimBear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB9F039116BA742800F5F737 /* AnimBear.jpg */; };
 		EB9F039416BA742800F5F737 /* AnimBear.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB9F039216BA742800F5F737 /* AnimBear.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EB0E99EC16BF76910071164E /* Stand.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Stand.plist; sourceTree = "<group>"; };
-		EB0E99F116BF8BFD0071164E /* Stand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stand.png; sourceTree = "<group>"; };
 		EB21970316BA50A8002AA562 /* AnimBear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimBear.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB21970716BA50A8002AA562 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		EB21970916BA50A8002AA562 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -404,6 +403,10 @@
 		EB21989516BA50B3002AA562 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		EB21989716BA50B3002AA562 /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		EB21989816BA50B3002AA562 /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		EB33118516D23A9C00782ACC /* Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hero.h; sourceTree = "<group>"; };
+		EB33118616D23A9C00782ACC /* Hero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hero.m; sourceTree = "<group>"; };
+		EB33118E16D23ADC00782ACC /* MachineGun.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MachineGun.plist; sourceTree = "<group>"; };
+		EB33118F16D23ADC00782ACC /* MachineGun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MachineGun.png; sourceTree = "<group>"; };
 		EB9F039116BA742800F5F737 /* AnimBear.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AnimBear.jpg; sourceTree = "<group>"; };
 		EB9F039216BA742800F5F737 /* AnimBear.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AnimBear.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -464,6 +467,7 @@
 		EB21971916BA50A8002AA562 /* AnimBear */ = {
 			isa = PBXGroup;
 			children = (
+				EB33118316D23A9C00782ACC /* Sprites */,
 				EB21989116BA50B2002AA562 /* AppDelegate.h */,
 				EB21989216BA50B3002AA562 /* AppDelegate.m */,
 				EB21989416BA50B3002AA562 /* HelloWorldLayer.h */,
@@ -480,8 +484,6 @@
 		EB21971A16BA50A8002AA562 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				EB0E99F116BF8BFD0071164E /* Stand.png */,
-				EB0E99EC16BF76910071164E /* Stand.plist */,
 				EB9F039116BA742800F5F737 /* AnimBear.jpg */,
 				EB9F039216BA742800F5F737 /* AnimBear.plist */,
 				EB21971B16BA50A8002AA562 /* Default.png */,
@@ -844,6 +846,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		EB33118316D23A9C00782ACC /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				EB33118416D23A9C00782ACC /* Hero */,
+			);
+			path = Sprites;
+			sourceTree = "<group>";
+		};
+		EB33118416D23A9C00782ACC /* Hero */ = {
+			isa = PBXGroup;
+			children = (
+				EB33118E16D23ADC00782ACC /* MachineGun.plist */,
+				EB33118F16D23ADC00782ACC /* MachineGun.png */,
+				EB33118516D23A9C00782ACC /* Hero.h */,
+				EB33118616D23A9C00782ACC /* Hero.m */,
+			);
+			path = Hero;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -909,8 +930,8 @@
 				EB21987116BA50B2002AA562 /* ChangeLog in Resources */,
 				EB9F039316BA742800F5F737 /* AnimBear.jpg in Resources */,
 				EB9F039416BA742800F5F737 /* AnimBear.plist in Resources */,
-				EB0E99EE16BF76910071164E /* Stand.plist in Resources */,
-				EB0E99F216BF8BFD0071164E /* Stand.png in Resources */,
+				EB33119016D23ADC00782ACC /* MachineGun.plist in Resources */,
+				EB33119116D23ADC00782ACC /* MachineGun.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1025,6 +1046,7 @@
 				EB21989316BA50B3002AA562 /* AppDelegate.m in Sources */,
 				EB21989616BA50B3002AA562 /* HelloWorldLayer.m in Sources */,
 				EB21989916BA50B3002AA562 /* IntroLayer.m in Sources */,
+				EB33118A16D23A9C00782ACC /* Hero.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
