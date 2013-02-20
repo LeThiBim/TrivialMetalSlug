@@ -15,7 +15,7 @@
 @synthesize moving = _moving;
 @synthesize walkAction = _walkAction;
 @synthesize moveAction = _moveAction;
-@synthesize isMoving = _isMoving;
+
 - (id) init
 {
     [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"MachineGun.plist"];

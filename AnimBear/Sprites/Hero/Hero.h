@@ -16,9 +16,7 @@
     CCAction* _walkAction;
     CCAction* _moveAction;
     BOOL _moving;
-    
-    BOOL _isMoving;
-    
+        
 }
 
 @property (nonatomic, assign) CCSprite* hero;
@@ -28,7 +26,6 @@
 @property (nonatomic, assign) CCAction* moveAction;
 
 @property (nonatomic, assign) BOOL moving;
-@property (nonatomic, assign) BOOL isMoving;
 
 - (void) update:(ccTime) dt;
 - (void) walk:(CGPoint) touchLocation;
