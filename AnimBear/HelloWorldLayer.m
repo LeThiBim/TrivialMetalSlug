@@ -70,10 +70,6 @@
     
 }
 
-- (void)update:(ccTime)dt
-{
-    [_heroPlayer update:dt];
-}
 
 -(void) registerWithTouchDispatcher
 {
