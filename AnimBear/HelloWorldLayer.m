@@ -42,18 +42,40 @@
 	// Apple recommends to re-assign "self" with the "super's" return value
 	if( (self=[super init]) ) {
 		
+        [[UIAccelerometer sharedAccelerometer] setDelegate:self];
+        
         self.isTouchEnabled = YES;
         
         _heroPlayer = [[Hero alloc] init];
         
         [self addChild:_heroPlayer];
         
-        
-        [self schedule:@selector(update:)];
-        
 	}
 	return self;
 }
+
+- (void)accelerometer:(UIAccelerometer *)accelerometer didAccelerate:(UIAcceleration *)acceleration
+{
+    CGPoint movePosition;
+    movePosition.y = 100;
+    
+    
+    if (acceleration.y > 0)
+    {
+        movePosition.x = 460;
+        
+        if ([[_heroPlayer hero] position].x != movePosition.x)
+            [_heroPlayer walk:movePosition];
+    }
+    if (acceleration.y < 0)
+    {
+        movePosition.x = 20;
+        
+        if ([[_heroPlayer hero] position].x != movePosition.x)
+            [_heroPlayer walk:movePosition];
+    }
+}
+
 
 // on "dealloc" you need to release all your retained objects
 - (void) dealloc
@@ -82,13 +104,13 @@
 
 -(void) ccTouchEnded:(UITouch *)touch withEvent:(UIEvent *)event {
     // Stuff from below!
-    CGPoint touchLocation = [touch locationInView: [touch view]];
-    touchLocation = [[CCDirector sharedDirector] convertToGL: touchLocation];
-    touchLocation = [self convertToNodeSpace:touchLocation];
+//    CGPoint touchLocation = [touch locationInView: [touch view]];
+//    touchLocation = [[CCDirector sharedDirector] convertToGL: touchLocation];
+//    touchLocation = [self convertToNodeSpace:touchLocation];
+//    
+//   
+//    [_heroPlayer walk:touchLocation];
     
-   
-    [_heroPlayer walk:touchLocation];
-     
 }
 
 -(void)heroMoveEnded {

@@ -136,7 +136,6 @@
 		EB33118A16D23A9C00782ACC /* Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = EB33118616D23A9C00782ACC /* Hero.m */; };
 		EB33119016D23ADC00782ACC /* MachineGun.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB33118E16D23ADC00782ACC /* MachineGun.plist */; };
 		EB33119116D23ADC00782ACC /* MachineGun.png in Resources */ = {isa = PBXBuildFile; fileRef = EB33118F16D23ADC00782ACC /* MachineGun.png */; };
-		EB7097BE16D4C29B0045FDD8 /* AcceleratableLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7097BD16D4C29B0045FDD8 /* AcceleratableLayer.m */; };
 		EB9F039316BA742800F5F737 /* AnimBear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB9F039116BA742800F5F737 /* AnimBear.jpg */; };
 		EB9F039416BA742800F5F737 /* AnimBear.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB9F039216BA742800F5F737 /* AnimBear.plist */; };
 /* End PBXBuildFile section */
@@ -408,8 +407,6 @@
 		EB33118616D23A9C00782ACC /* Hero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hero.m; sourceTree = "<group>"; };
 		EB33118E16D23ADC00782ACC /* MachineGun.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MachineGun.plist; sourceTree = "<group>"; };
 		EB33118F16D23ADC00782ACC /* MachineGun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MachineGun.png; sourceTree = "<group>"; };
-		EB7097BC16D4C29B0045FDD8 /* AcceleratableLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcceleratableLayer.h; sourceTree = "<group>"; };
-		EB7097BD16D4C29B0045FDD8 /* AcceleratableLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcceleratableLayer.m; sourceTree = "<group>"; };
 		EB9F039116BA742800F5F737 /* AnimBear.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AnimBear.jpg; sourceTree = "<group>"; };
 		EB9F039216BA742800F5F737 /* AnimBear.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AnimBear.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -470,7 +467,6 @@
 		EB21971916BA50A8002AA562 /* AnimBear */ = {
 			isa = PBXGroup;
 			children = (
-				EB7097BB16D4C29B0045FDD8 /* Accelebration */,
 				EB33118316D23A9C00782ACC /* Sprites */,
 				EB21989116BA50B2002AA562 /* AppDelegate.h */,
 				EB21989216BA50B3002AA562 /* AppDelegate.m */,
@@ -869,15 +865,6 @@
 			path = Hero;
 			sourceTree = "<group>";
 		};
-		EB7097BB16D4C29B0045FDD8 /* Accelebration */ = {
-			isa = PBXGroup;
-			children = (
-				EB7097BC16D4C29B0045FDD8 /* AcceleratableLayer.h */,
-				EB7097BD16D4C29B0045FDD8 /* AcceleratableLayer.m */,
-			);
-			path = Accelebration;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1060,7 +1047,6 @@
 				EB21989616BA50B3002AA562 /* HelloWorldLayer.m in Sources */,
 				EB21989916BA50B3002AA562 /* IntroLayer.m in Sources */,
 				EB33118A16D23A9C00782ACC /* Hero.m in Sources */,
-				EB7097BE16D4C29B0045FDD8 /* AcceleratableLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
