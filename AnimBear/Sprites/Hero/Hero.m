@@ -134,8 +134,5 @@
     }
     _moving = FALSE;
 }
-- (void) update:(ccTime) dt
-{
-       
-}
+
 @end

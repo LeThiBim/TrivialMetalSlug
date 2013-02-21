@@ -27,6 +27,5 @@
 
 @property (nonatomic, assign) BOOL moving;
 
-- (void) update:(ccTime) dt;
 - (void) walk:(CGPoint) touchLocation;
 @end
